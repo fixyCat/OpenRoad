@@ -1,1 +1,1 @@
-![Alt text](images/OpenRoad_logo_01_edit.png)
+![Alt text](images/OpenRoad_logo_02_edit.png)
