@@ -8,6 +8,7 @@ from openroad.commands.status import status_command
 @click.version_option()
 def cli() -> None:
     """OpenRoad project coordination CLI."""
+    print("---- Running OpenRoad ----")
     pass
 
 

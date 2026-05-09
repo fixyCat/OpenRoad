@@ -10,3 +10,10 @@ dependencies = [
     "rich>=15.0.0",
     "typer>=0.24.2",
 ]
+
+
+[project.scripts]
+openroad = "openroad.main:cli"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
