@@ -209,7 +209,7 @@ The summary is quite important as the LLM will use this to create the work item,
 
 Once you have your first Roadmap item you are ready to use the /openroad command with OpenCode to run thing:
 
-![Alt text](images/opencode_openroad_command.png)
+![Alt text](images/opencode_openroad_command.PNG)
 
 You'll notice we have 2 openroad commands /openroad and /openroad-close. /openroad-close is used to archive and close the currently changed (done) items much like the /opsx-archive command it will close the OpenSpec change and make the necessary changes on our Roadmap to move onto the next item. It's important that you run these after you are happy with the changes made using the /openroad command.
 
