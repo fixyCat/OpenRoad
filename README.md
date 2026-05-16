@@ -8,7 +8,7 @@ OpenRoad helps decide what comes next!
 
 OpenRoad is a roadmap coordination tool for OpenSpec projects.
 
-Cunrently it is built to use with OpenCode but this will expand in the near future
+Cunrently it is built to use with OpenCode and OpenSpec but this will expand in the near future
 
 It helps you turn a project roadmap into ordered, OpenSpec-friendly changes, so you can work above the level of individual change folders without losing control of implementation detail.
 
@@ -220,12 +220,27 @@ You'll notice we have 2 openroad commands /openroad and /openroad-close. /openro
 2. Work with Product Requirements Documents (PRDs) as a way to produce intial Roadmaps (roadmap.md files)
 3. Work on a dashboard coordination tool so that a user can have better overview of the roadmap state and units of work/changes
 
-### Contributions?
+### Contributions
 
-Code contributions by other developers is currently closed, but what I am looking for is feedback and an understanding of YOUR particular workflow so we can make sure this tool has the best user experience out there!
+OpenRoad is currently in an early public preview.
+
+At this stage, external code contributions are not being accepted while the project’s structure, governance, and contributor process are still being defined.
+
+What would be incredibly valuable right now is feedback.
+
+I’m especially interested in understanding how you currently plan and coordinate OpenSpec projects:
+
+- How do you move from roadmap items to individual changes?
+- How do you decide what should happen next?
+- Where does the workflow become messy or repetitive?
+- What would make roadmap-driven, spec-driven development easier for you?
+- What LLMs, agentic tools or harnesses are you using?
+- What would you like to see added to OpenRaod
+
+Please open an issue with feedback, workflow examples, bug reports, or use cases. The goal is to shape OpenRoad around real development workflows rather than assumptions and create the best user experience out there!
 
 ## Where is this Going?
 
-In future I hope OpenRoad will become a higher level Agent Coordination tool that can be the first touch point for working on projects.
+In future I hope OpenRoad will become a higher level Agent Coordination/Orchestration tool that can be the first touch point for working on projects.
 
-The human should be kept in the loop, with the aim as Agents to act as peers you collobrate with on anything from small project to large business products
+We as humans should be kept in the loop, and agents act as peers you collobrate with on anything from small to large business products, never losing sight of the bigger picture while working on the details of a small change!
