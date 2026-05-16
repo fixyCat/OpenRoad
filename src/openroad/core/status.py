@@ -12,7 +12,7 @@ REQUIRED_FILES_OPENCODE = [
         "type": "roadmap",
     },
     {
-        "path": ".opencode/commands/openroad.md",
+        "path": ".opencode/command/openroad.md",
         "type": "opencode_command",
     },
     {
