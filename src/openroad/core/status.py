@@ -8,15 +8,15 @@ REQUIRED_FILES_OPENCODE = [
         "type": "agent_instructions",
     },
     {
-        "path": "openroad.md",
-        "type": "project_instructions",
-    },
-    {
         "path": "openroad/roadmap.md",
         "type": "roadmap",
     },
     {
         "path": ".opencode/commands/openroad.md",
+        "type": "opencode_command",
+    },
+    {
+        "path": ".opencode/commands/openroad-close.md",
         "type": "opencode_command",
     },
 ]

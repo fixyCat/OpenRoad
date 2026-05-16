@@ -13,7 +13,6 @@ class InstallResult:
 
 def get_template_root(target: str) -> Path:
     template_root = files("openroad").joinpath("markdowns", target)
-
     # importlib.resources returns Traversable, but shutil wants paths.
     # This works when running from source. For packaged wheels, we may need
     # as_file later.
@@ -31,6 +30,8 @@ def copy_template_tree(
 
     if not template_root.exists():
         raise ValueError(f"Unknown target template: {target}")
+    else:
+        print(f"Template root found successfully!")
 
     created: list[str] = []
     skipped: list[str] = []
