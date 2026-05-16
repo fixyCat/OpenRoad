@@ -16,7 +16,7 @@ REQUIRED_FILES_OPENCODE = [
         "type": "opencode_command",
     },
     {
-        "path": ".opencode/commands/openroad-close.md",
+        "path": ".opencode/command/openroad-close.md",
         "type": "opencode_command",
     },
 ]
