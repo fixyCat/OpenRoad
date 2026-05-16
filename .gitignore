@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (highly recommended to exclude these)
+venv/
+.venv/
+env/
+bin/
+lib/
+develop-eggs/
+dist/
+build/
+
+# Distribution / packaging
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment variables and secrets
+.env
+.venv
+env.bak
+*.swp
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nosexml
+coverage.xml
+.coverage
+.cache
+.pytest_cache/
+
+# IDE-specific (optional but common)
+.vscode/
+.idea/
+*.swp
+
+
+src/openroad/__pycache__/
+src/openroad/commands/__pycache__/
+src/openroad/core/__pycache__/
+

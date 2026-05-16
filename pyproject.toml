@@ -4,4 +4,30 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "click>=8.3.3",
+    "pydantic>=2.13.3",
+    "rich>=15.0.0",
+    "typer>=0.24.2",
+]
+
+
+[project.scripts]
+openroad = "openroad.main:cli"
+
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+openroad = [
+    "markdowns/*.md",
+    "markdowns/**/*.md",
+    "markdowns/**/.opencode/**/*.md",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
